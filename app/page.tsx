@@ -34,7 +34,7 @@ export default function FinancialLiteracyApp() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-green-100 py-12">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-8 text-center text-blue-800">Financial Literacy App</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-blue-800">FinLife</h1>
         {currentStep === 'userSetup' && <UserSetup onSubmit={handleUserSetup} />}
         {currentStep === 'expenseSetup' && <ExpenseSetup onSubmit={handleExpenseSetup} />}
         {currentStep === 'simulation' && userProfile && expenses && financialStatus && (
